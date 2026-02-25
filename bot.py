@@ -33,4 +33,7 @@ if __name__ == "__main__":
     import threading
     threading.Thread(target=bot.polling, kwargs={'none_stop': True}).start()
     app.run(host="0.0.0.0", port=10000)
+pyTelegramBotAPI
+openai==0.28.0
+flask
 
